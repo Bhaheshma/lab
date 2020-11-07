@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<form action="registered.html">
+<input type="text"placeholder="Name" required/> <br  /><br  />
+Gender:
+Male:<input type="radio" value="Male" name="gender" />
+Female:<input type="radio" value="Female"  name="gender" /> 
+Others:<input type="radio" value="Others"  name="gender" /><br  /><br  />
+Date of Birth:<input type="date" /> <br  /><br  />
+<input type="email"placeholder="email" required    /> <br  /><br  />
+
+<input type="Password"placeholder="Password" pattern=".{7,}" title="Password must contain atleast 7 letters"  required/> <br  /><br  />
+<textarea rows="5" cols="25" placeholder="Address" maxlength="100"></textarea><br  /><br  />
+Programme
+<input type=text list="programme" />
+<datalist id="programme">
+
+<option>B.S.C.Computer science </option>
+
+<option> B.S.C.Physics</option>
+<option>B.S.C.Polymer chemistry </option>
+<option>B.S.C.Mathematics </option>
+<option>B.S.C.Statistics </option>
+
+</datalist>
+ <br  /><br  />
+University
+<select>
+<option>Kannur university </option>
+<option>University of Calicut</option>
+<option>MG University</option>
+<option>Kerala University</option>
+</select>
+ <br  /><br  />
+
+Language known:
+Malayalam:<input type="checkbox" value="Malayalam:" />
+English:<input type="checkbox" value="English:" />
+Hindi:<input type="checkbox" value="Hindi:" /><br /><br  />
+<button type="reset"><bold> Clear</bold></button>
+<input type="submit" value="submit" />
+</form>
+</body>
+</html>
